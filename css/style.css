@@ -1,1 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500&family=Caprasimo&family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300&family=Caprasimo&family=IBM+Plex+Mono:ital,wght@0,400;1,100&display=swap");
+
+body {
+  background-color: hsl(274, 91%, 96%);
+}
+header {
+  background-color: hsl(274, 91%, 86%);
+  box-shadow: 0 10px 15px 1px hsla(274, 70%, 66%, 0.3);
+}
+
+h1 {
+  font:
+    400 42px/1.4 "Caprasimo",
+    cursive;
+  color: hsl(274, 70%, 52%);
+  padding: 20px 0;
+  text-align: center;
+}
